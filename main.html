@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VTIE-IN</title>
+    <link href="link rel="preconnect href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var learnmore = document.getElementById("LEARNMORE");
+  var btnText = document.getElementById("cta");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "LEARN MORE"; 
+    learnmore.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "LEARN LESS"; 
+  learnmore.style.display = "block";
+  }
+}
+        </script>
+        
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="LOGO1.jpg" alt="logo" width="150px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                
+                <li><a href="about/About.html" target="_blank"class="About-button">about</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="loginpage.html/flex.html" target="_blank"class="login-button">login</a></li>
+                
+                <li><a href="#">contact</a></li>
+                <li><a href="sign in page/register.html" target="_blank"class="Signup-button">Sign up</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content-left">
+            <h1>VTIE-IN</h1><br>
+            <h3>YOUR HEALTH COMES FIRST!</h3>
+            <P>vtieIn is an indian healthcare business and employment-oriented online service that operates via websites and mobile apps. Launched on 11th July  2020, the platform is mainly used for professional networking in health care and allows job seekers to post their CVs and employers to post jobs, health care service and consultancy, online doctor service, medical delivery.<span id="dots">...</span></P>
+            <button id="cta" onclick="myFunction()">Learn More</button>
+            <div id="LEARNMORE" style="display: none; ">
+                <p> The platform is mainly used for professional networking in health care and allows job seekers to post their CVs and employers to post jobs, health care service and consultancy, online doctor service, medical delivery , hospital booking service it completly deatils with health-care sector and provides end to end services.</p>
+            </div>
+            
+        </div>
+        <div class="content-right">
+            <img src="mainimage.jpeg" alt="" class="mainimage">
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+<div class="footer-col">
+    <h4>Patient Care</h4>
+    <ul>
+        <li><a href="#">Find a doctor</a></li>
+        <li><a href="#">Medical services</a></li>
+        <li><a href="#">patient Testimonials</a></li>
+        
+        <li><a href="#">Pay Online</a></li>
+    </ul>
+</div>
+<div class="footer-col">
+    <h4>Get Help</h4>
+    <ul>
+        <li><a href="#">Consult online Doctors</a></li>
+        <li><a href="#">Post a Query</a></li>
+        <li><a href="#">Book Physical Appointment</a></li>
+        
+        <li><a href="#">Give your feedback</a></li>
+        
+    </ul>
+</div>
+
+<div class="footer-col">
+    <h4>Hospitals</h4>
+    <ul>
+        <li><a href="#">Apollo hospitals</a></li>
+        <li><a href="#">KIMS ICON hospitals</a></li>
+        <li><a href="#">Care hospitals</a></li>
+        
+        <li><a href="#">Rainbow hospitals</a></li>
+    
+    </ul>
+</div>
+
+
+<div class="footer-col">
+    <h4>Contact Us</h4>
+    <div class="sociallinks">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        
+    </div>
+        
+    </ul>
+</div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
+</html>
